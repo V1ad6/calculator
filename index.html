@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;350;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/NullStyles.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrap">
+    <input class="num-input">
+
+    <div class="operand-parameters">
+      <div class="system">
+        <button class="system-button">
+          <p>Оберіть СЧ</p>
+          <img src="img/open.png" alt="open">
+        </button>
+        <ul class="system-list">
+          <li>2</li>
+          <li>8</li>
+          <li>10</li>
+          <li>16</li>
+        </ul>
+      </div>
+
+      <div class="action">
+        <button class="action-button">
+          <p>Арифметична дія</p>
+          <img src="img/open.png" alt="open">
+        </button>
+        <ul class="action-list">
+          <li>+</li>
+          <li>-</li>
+          <li>*</li>
+          <li>/</li>
+        </ul>
+      </div>
+    </div>
+
+    <input class="num-input">
+
+    <button class="calculate">
+      <div>
+        <p>ОБЧИСЛИТИ</p>
+      </div>
+    </button>
+
+    <div class="result">
+      <p>Тут буде результат</p>
+      <p>(натисніть Enter або Обчислити)</p>
+    </div>
+
+    <button class="continue">
+      <div>
+        <p>Продовжити розрахунки з результатом</p>
+      </div>
+    </button>
+
+    <div class="result-system">
+      <div>
+        <p>Оберіть СЧ для результату</p>
+        <img src="img/open.png" alt="open">
+        <ul class="system-list">
+          <li>2</li>
+          <li>8</li>
+          <li>10</li>
+          <li>16</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
